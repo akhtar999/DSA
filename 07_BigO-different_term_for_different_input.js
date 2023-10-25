@@ -1,11 +1,11 @@
 function logItem(a, b) {
   // if they give a,b
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < a; i++) {
     console.log(i);
   }
   // O(a)
 
-  for (let j = 0; j < n; j++) {
+  for (let j = 0; j < b; j++) {
     console.log(j);
   }
 
@@ -17,8 +17,8 @@ function logItem(a, b) {
 // if it's nested loop
 
 function logItem(a, b) {
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
+  for (let i = 0; i < a; i++) {
+    for (let j = 0; j < b; j++) {
       console.log(i, j);
     }
   }
