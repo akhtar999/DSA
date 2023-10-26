@@ -1,0 +1,23 @@
+difference between Array & Linked List
+--> Array have indexes but Linked List don't
+--> Array occupie contiguous memory space but Linked List can be all over the memory
+
+Array---
+[3,6,4,8,11]
+
+
+Linked List---
+(head)3--> 6--> 4--> 8--> 11(tail) --> null
+ last item points to null & phase used null terminated list
+
+ ********************************************************************************************************
+
+BigO of Linked List --
+--> for adding (push) a node. its O(1)
+--> for removing (pop) its O(n). beacause in Linked List we can't go back to set the tail.
+we have to start from the beginning for finding which node is linked to last node
+
+--> if it's adding new node to beginning then we set the (head = new node)
+O(1)
+--> if we remove 1st node then we will set head like this (set head = head.next)
+O(1)
