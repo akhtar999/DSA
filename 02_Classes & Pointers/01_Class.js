@@ -5,7 +5,7 @@ class Cookie {
   getColor() {
     return this.color;
   }
-  setColor() {
+  setColor(color) {
     this.color = color;
   }
 }
@@ -13,5 +13,12 @@ class Cookie {
 let cookie1 = new Cookie("red");
 let cookie2 = new Cookie("yellow");
 
-console.log(cookie1.getColor());
-console.log(cookie2.getColor());
+//get color
+
+// console.log(cookie1.getColor()); // red
+// console.log(cookie2.getColor()); // yellow
+
+//set color
+cookie1.setColor("blue");
+
+console.log(cookie1.getColor()); //blue
